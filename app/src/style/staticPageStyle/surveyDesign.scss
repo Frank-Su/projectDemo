@@ -1,0 +1,252 @@
+@import '../constant/font.scss';
+@import '../constant/color.scss';
+.ekasSurveyDesignItemWrapper {
+    width: 95%;
+    border: 1px solid rgba(18, 24, 33, 0.12);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding-bottom: 2rem;
+    margin: 2rem 2rem 0 3rem;
+}
+
+.ekasSurveyDesignBtnWrapper {
+    width: 100%;
+    padding: 3rem;
+}
+
+.ekasSurveyDesignAddBtn {
+    cursor: pointer;
+    width: 11rem;
+    height: 3.9rem;
+    background-color: $primaryColor;
+    border: none;
+    color: $white;
+    transition: 0.2s linear;
+    margin-right: 2rem;
+    outline: none;
+}
+
+.ekasSurveyDesignAddBtn:hover {
+    background-color: $primaryHoverColor;
+}
+
+.ekasSurveyDesignSideBarIcon {
+    margin-right: 1rem;
+}
+
+.ekasSurveyDesignSideBarTitle {
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid $lightGray;
+    line-height: 5rem;
+}
+
+.ekasSurveyDesignSideBarTitle span {
+    font-size: $fs_1__5;
+    margin-left: 1rem;
+    color: $textCommonGray;
+    font-family: $commontTextFamily;
+}
+
+.ekasSurveyDesignSideBarItemWrapper {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ekasSurveyDesignSideBarItem {
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    width: 100%;
+    height: 4rem;
+    border-bottom: 1px solid $lightGray;
+    line-height: 4rem;
+    cursor: pointer;
+    position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.ekasSurveyDesignSideBarItem:hover {
+    background-color: $lightGray;
+}
+
+.ekasSurveyDesignCheckBoxWrapper {
+    width: 5.5rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    display: inline-block;
+}
+
+.ekasSurveyDesignCheckBox {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid $middleGray;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.2s linear;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.ekasSurveyDesignSideBarItem:hover .ekasSurveyDesignCheckBox {
+    opacity: 1;
+    visibility: visible;
+}
+
+.ekasSurveyDesignItemIcon {
+    margin-right: 1rem;
+    color: $primaryHoverColor;
+    font-size: 1.8rem;
+    vertical-align: middle;
+}
+
+.ekasSurveyDesignItemTextWrapper {
+    display: inline-block;
+    padding-right: 2rem;
+    text-overflow: ellipsis;
+}
+
+.ekasSurveyDesignSettingWrapper {
+    height: 2.4rem;
+    width: 1rem;
+    float: right;
+    margin-top: 0.8rem;
+    transition: 0.2s linear;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.ekasSurveyDesignSettingDot {
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.2rem;
+    border-radius: 50%;
+    background-color: $textCommonGray;
+}
+
+.ekasSurveyDesignSideBarItem:hover .ekasSurveyDesignSettingWrapper {
+    opacity: 1;
+    visibility: visible;
+}
+
+.ekasSurveyDesignDragArea {
+    width: 100%;
+    height: 0.7rem;
+    transition: 0.2s linear;
+}
+
+.ekasSurveyDesignSameLevelArea {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    vertical-align: top;
+    z-index: 2;
+    transition: 0.1s linear;
+    padding: 0;
+}
+
+.ekasSurveyDesignNestedLevelArea {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    vertical-align: top;
+    z-index: 2;
+    transition: 0.1s linear;
+}
+
+// when drag start add new style
+.ekasSurveyDesignItem_DragStart {
+    transform: translateX(-9999px);
+    transition: transform 0.1s;
+}
+
+.ekasSurveyDesignItem_SameLevelDropArea {
+    height: 2rem !important;
+    border: 2px dashed $primaryColor;
+    border-right: none;
+}
+
+.ekaSurveyDesignItem_NestedDropArea {
+    height: 2rem !important;
+    border: 2px dashed $primaryColor;
+    border-left: none;
+}
+
+.ekasSurveyDesignItem_NestedLevelDropArea {
+    height: 2rem !important;
+    border: 2px dashed $primaryColor;
+}
+
+.ekasSurveyDesignItem_WrapperHight {
+    height: 2rem !important;
+}
+
+@mixin ekasIcon {
+    margin-right: 1rem;
+    color: $primaryHoverColor;
+    font-size: 1.8rem;
+    vertical-align: middle;
+}
+
+.ekasBlockIcon {
+    @include ekasIcon();
+    color: $block;
+}
+
+.ekasCTIcon {
+    @include ekasIcon();
+    color: $chart;
+}
+
+.ekasCDIcon {
+    @include ekasIcon();
+    color: $condition;
+}
+
+.ekasDTIcon {
+    @include ekasIcon();
+    color: $directive;
+}
+
+.ekasEMIcon {
+    @include ekasIcon();
+    color: $email;
+}
+
+.ekasFDIcon {
+    @include ekasIcon();
+    color: $folder;
+}
+
+.ekasLPIcon {
+    @include ekasIcon();
+    color: $loop;
+}
+
+.ekasPGIcon {
+    @include ekasIcon();
+    color: $page;
+}
+
+.ekasPGBIcon {
+    @include ekasIcon();
+    color: $pageBreak;
+}
+
+.ekasSCPIcon {
+    @include ekasIcon();
+    color: $script;
+}
+
+.ekasSPIcon {
+    @include ekasIcon();
+    color: $stop;
+}
+
+.ekasTELIcon {
+    @include ekasIcon();
+    color: $telephony;
+}

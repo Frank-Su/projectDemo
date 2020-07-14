@@ -1,0 +1,153 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasConditionIcon {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: $fs_2;
+    cursor: pointer;
+    color: $condition;
+}
+
+.ekasConditionWrapper {
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    border-bottom: 0.1rem solid $deepGray;
+}
+
+.ekasConditionSection1 {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid $deepGray;
+}
+
+.ekasConditionTitleIcon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: $fs_1__2;
+    cursor: pointer;
+    padding-left: 0.5rem;
+    color: $deepGray;
+}
+
+.ekasConditionWrapperTdNormal {
+    display: inline-block;
+    width: 15rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    margin-left: 2rem;
+    color: $textCommonGray;
+}
+
+.ekasConditionWrapperTdLong {
+    display: inline-block;
+    width: 22rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    margin-left: 1rem;
+    color: $textCommonGray;
+}
+
+.ekasConditionWrapper tbody select {
+    display: inline-block;
+    width: 15rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    color: $textCommonGray;
+    cursor: pointer;
+    text-indent: 0.5rem;
+}
+
+.ekasConditionWrapperTdLong input {
+    display: inline-block;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+    text-indent: 0.5rem;
+}
+
+.ekasConditionItem {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: $titleFamily;
+    display: inline-block;
+    font-size: $fs_1__2;
+    width: 100%;
+    border-bottom: 0.1rem solid $deepGray;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+}
+
+.ekasConditionItem span {
+    margin-right: 1rem;
+}
+
+.ekasConditionSection2 {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.ekasConditionSection2Wrapper {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex: 1;
+}
+
+.ekasConditionSection2Icon {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: $fs_2;
+    cursor: pointer;
+    color: $chart;
+}
+
+.ekasConditionSection2Part1Wrapper {
+    height: 7rem;
+    background: saddlebrown;
+    width: 100%;
+    line-height: 7rem;
+    background: $primaryColor;
+    border-left: 0.3rem solid $chart;
+    overflow: hidden;
+}
+
+.ekasConditionSection2Part1Link {
+    display: inline-block;
+    margin-left: 2rem;
+    color: $email;
+    cursor: pointer;
+}
+
+.ekasConditionSection2Part2TextArea {
+    display: inline-block;
+    width: 100%;
+    margin-top: 2rem;
+    height: 20rem;
+    resize: none;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.2rem;
+}

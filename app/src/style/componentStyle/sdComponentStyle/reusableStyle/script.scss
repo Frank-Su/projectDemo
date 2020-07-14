@@ -1,0 +1,45 @@
+@import '../../../constant/color.scss';
+@import '../../../constant/font.scss';
+@mixin ekasScriptTag {
+    display: inline-block;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    margin-top: 1rem;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.ekasScriptTagWrapper {
+    height: 4rem;
+    background: $lightGray;
+}
+
+.ekasScriptTagNormal {
+    @include ekasScriptTag();
+}
+
+.ekasScriptTagSelected {
+    @include ekasScriptTag();
+    background: $white;
+}
+
+.ekasScriptContent {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.ekasScriptMaskingContent {
+    width: 60rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.ekasScriptMaskingTitle {
+    font-family: $titleFamily;
+    font-size: $fs_1__2;
+}

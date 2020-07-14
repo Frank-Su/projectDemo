@@ -1,0 +1,172 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+@mixin ekasIcon {
+    display: inline-block;
+    width: 28rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.ekasItemWrapper {
+    display: inline-block;
+    width: 22rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__8;
+    background: $white;
+    transition: 0.2s linear;
+    margin-bottom: 0.5rem;
+}
+
+.ekasItemContent {
+    display: inline-block;
+    width: 28rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: $loop;
+    cursor: pointer;
+}
+
+.ekasTable {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.ekasItemWrapper span {
+    display: inline-block;
+    margin-left: 1rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    vertical-align: top;
+    color: $textCommonGray;
+}
+
+.ekasP {
+    padding: 0;
+    margin: 0;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-family: $titleFamily;
+    font-size: $fs_2;
+}
+
+.ekasItemWrapper:hover {
+    background: $lightBlue;
+    transition: 0.2s linear;
+}
+
+.ekasDivider {
+    padding-left: 2rem;
+    margin-top: 1rem;
+    background: $lightBlue;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    border-bottom: 0.1rem solid $deepGray;
+}
+
+.ekasItemFolder {
+    @include ekasIcon();
+    color: $folder;
+}
+
+.ekasItemLoop {
+    @include ekasIcon();
+    color: $loop;
+}
+
+.ekasItemDirective {
+    @include ekasIcon();
+    color: $directive;
+}
+
+.ekasItemTelephony {
+    @include ekasIcon();
+    color: $telephony;
+}
+
+.ekasItemPage {
+    @include ekasIcon();
+    color: $page;
+}
+
+.ekasItemCondition {
+    @include ekasIcon();
+    color: $condition;
+}
+
+.ekasItemStop {
+    @include ekasIcon();
+    color: $stop;
+}
+
+.ekasItemEmail {
+    @include ekasIcon();
+    color: $email;
+}
+
+.ekasItemScript {
+    @include ekasIcon();
+    color: $script;
+}
+
+.ekasItemBlock {
+    @include ekasIcon();
+    color: $block;
+}
+
+.ekasItemPageBreak {
+    @include ekasIcon();
+    color: $pageBreak;
+}
+
+.ekasItemChart {
+    @include ekasIcon();
+    color: $chart;
+}
+
+.ekasQIcon {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin-right: 0.5rem;
+    color: $deepGray;
+    cursor: pointer;
+}
+
+.ekasFoot {
+    margin-top: 3rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.ekasFoot label {
+    display: inline-block;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.ekasCloseBtn {
+    background: $primaryColor;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+    color: $white;
+    height: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    transition: 0.2s linear;
+}
+
+.ekasCloseBtn:hover {
+    background: $primaryHoverColor;
+    transition: 0.2s linear;
+}

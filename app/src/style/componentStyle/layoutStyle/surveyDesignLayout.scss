@@ -1,0 +1,52 @@
+@import "../../constant/font.scss";
+@import "../../constant/color.scss";
+.ekasSurveyDesignLayoutContainer {
+    display: inline-block;
+    height: calc(100vh - 5.5rem);
+    vertical-align: top;
+    overflow: scroll;
+    user-select: none;
+}
+.ekasSurveyDesignLayoutWrapper {
+    display: inline-block;
+    height: calc(100vh - 5.5rem);
+    vertical-align: top;
+    overflow: scroll;
+    padding-bottom: 2rem;
+    @media screen and (max-width: 1220px) {
+        display: none;
+    }
+}
+.ekasSurveyDesignLayoutMenu {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    @media screen and (max-width: 1220px) {
+        width: calc(100vw - 7rem) !important;
+    }
+}
+.ekasSurveyDesignLayout_HandleResizable {
+    width: 0.5rem;
+    height: 100%;
+    background-color: $middleGray;
+    display: inline-block;
+    cursor: col-resize;
+    position: relative;
+}
+.ekasSurveyDesignLayout_HandleResizableDot_wrapper {
+    width: 0.5rem;
+    height: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.ekasSurveyDesignLayout_HandleResizableDot {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 0.7rem;
+    background: $lightGray;
+}

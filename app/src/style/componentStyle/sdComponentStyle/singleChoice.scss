@@ -1,0 +1,158 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+@mixin ekasSinglechoiceIcon {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: $fs_2;
+    cursor: pointer;
+}
+
+@mixin ekasSinglechoiceSelectLabel {
+    margin-left: 2rem;
+    height: 4rem;
+    line-height: 4rem;
+    font-family: $titleFamily;
+    display: inline-block;
+    font-size: $fs_1__2;
+}
+
+@mixin ekasSinglechoiceSelect {
+    border: none;
+    margin-left: 0.5rem;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    cursor: pointer;
+}
+
+@mixin ekasSinglechoiceBorderBottom {
+    border-bottom: 0.1rem solid $deepGray;
+    box-sizing: border-box;
+}
+
+@mixin ekasSinglechoiceSpan {
+    height: 5rem;
+    display: inline-block;
+    line-height: 5rem;
+    font-size: $fs_1__4;
+    margin-left: 2rem;
+    font-family: $titleFamily;
+    cursor: pointer;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+/* -------------- START: common part -------------- */
+
+.ekasSinglechoiceTagsWrapper {
+    @include ekasSinglechoiceBorderBottom();
+}
+
+.ekasSinglechoiceTagsSpanNormal {
+    @include ekasSinglechoiceSpan();
+}
+
+.ekasSinglechoiceTagsSpanSelected {
+    @include ekasSinglechoiceSpan();
+    box-sizing: border-box;
+    border-bottom: 0.3rem solid $primaryColor
+}
+
+
+/* -------------- END: common part -------------- */
+
+
+/* -------------- START: edit content part -------------- */
+
+@mixin ekasSinglechoiceSection1Wrapper {
+    display: inline-block;
+    margin-left: 2rem;
+    vertical-align: top;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ekasSinglechoiceEditSection1Wrapper {
+    @include ekasSinglechoiceBorderBottom();
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+}
+
+.ekasSinglechoiceEditSection1Checkbox {
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    vertical-align: top;
+    margin-bottom: 1rem;
+}
+
+.ekasSinglechoiceEditSection1Checkbox label {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 0.8rem;
+    cursor: pointer;
+}
+
+.ekasSinglechoiceEditSection1Checkbox input {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.ekasSinglechoiceEditSection1Type {
+    @include ekasSinglechoiceSection1Wrapper();
+}
+
+.ekasSinglechoiceEditSection1TypeSelect {
+    text-indent: 1rem;
+}
+
+.ekasSinglechoiceEditSection1Answer {
+    @include ekasSinglechoiceSection1Wrapper();
+}
+
+.ekasSinglechoiceEditSection1Columns {
+    @include ekasSinglechoiceSection1Wrapper();
+}
+
+.ekasSinglechoiceEditSection1Rows {
+    @include ekasSinglechoiceSection1Wrapper();
+}
+
+.ekasSinglechoiceEditSection1Wrapper select {
+    display: inline-block;
+    width: 15rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.ekasSinglechoiceEditSection1Wrapper input {
+    display: inline-block;
+    height: 3rem;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.ekasSinglechoiceEditSection1Wrapper span {
+    display: inline-block;
+    padding-bottom: 1rem;
+    padding-right: 0.5rem;
+}
+
+.ekasSinglechoiceEditSection1Icon {
+    color: $deepGray;
+    font-size: $fs_1__4;
+    cursor: pointer;
+}
+
+.ekasSinglechoiceCheckbox1 {
+    margin-bottom: 1rem;
+}
+
+.ekasSinglechoiceCheckbox1 label {
+    padding-left: 0.5rem;
+}

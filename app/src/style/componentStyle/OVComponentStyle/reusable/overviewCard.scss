@@ -1,0 +1,54 @@
+@import '../../../constant/font.scss';
+@import '../../../constant/color.scss';
+.ekasOverviewcardWapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  box-shadow: 0 0.1rem 0.1rem $deepGray;
+  border: 1px solid $lightGray;
+  background: $white;
+  margin: 0 auto;
+}
+
+.ekasOverviewcardTitleWapper {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  background: $white;
+}
+
+.ekasOverviewcardTitleText {
+  display: inline-block;
+  text-align: center;
+  text-indent: 2rem;
+  font-family: $titleFamily;
+  font-size: $fs_1__5;
+}
+
+.ekasOverviewcardTitleButton {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 1rem;
+  border-radius: 4rem;
+  transition: 0.4s linear;
+}
+
+.ekasOverviewcardTitleButton:hover {
+  background: $deepGray;
+  transition: 0.4s linear;
+}
+
+.ekasOverviewcardTitleButtonIcon {
+  vertical-align: middle;
+}
+
+.ekasOverviewcardContentWapper {
+  width: 100%;
+  transition: all 0.2s ease-in;
+  position: relative;
+}

@@ -1,0 +1,68 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasTextListWrapper {
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    border-bottom: 0.1rem solid $deepGray;
+    padding-left: 1rem;
+}
+
+.ekasTextListCheckbox {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+
+.ekasTextListCheckbox label {
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.ekasTextListCheckbox input {
+    cursor: pointer;
+}
+
+.ekasTextListTable {
+    display: inline-block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.ekasTextListTableTitle {
+    width: 15rem;
+    padding-bottom: 1rem;
+}
+
+.ekasTextListTableTitleLong {
+    width: 20rem;
+    padding-bottom: 1rem;
+}
+
+.ekasTextListTableIcon {
+    display: inline-block;
+    color: $deepGray;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.ekasTextListTableItemWrapper {
+    padding-right: 1rem;
+}
+
+.ekasTextListTableSelect {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+    text-indent: 0.5rem;
+}
+
+.ekasTextListInput {
+    height: 3rem;
+    line-height: 3rem;
+    box-sizing: border-box;
+    margin-left: 1rem;
+    width: 5rem;
+}

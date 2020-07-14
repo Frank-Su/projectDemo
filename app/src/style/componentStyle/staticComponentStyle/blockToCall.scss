@@ -1,0 +1,104 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasBlockToCallIcon {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: $fs_2;
+    cursor: pointer;
+    color: $block;
+}
+
+.ekasBlockToCallWrapper {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+}
+
+.ekasBlockToCallSection1 {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid $deepGray;
+}
+
+.ekasBlockToCallSection2 {
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
+
+.ekasBlockToCallSection2 span {
+    vertical-align: top;
+    flex: 1;
+}
+
+.ekasBlockToCallSection2 textarea {
+    margin-left: 1rem;
+    width: 100%;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+    height: 5rem;
+    resize: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.ekasBlockToCallTitleIcon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: $fs_1__2;
+    cursor: pointer;
+    padding-left: 0.5rem;
+    color: $deepGray;
+}
+
+.ekasBlockToCallWrapperTdNormal {
+    display: inline-block;
+    width: 18rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    margin-left: 1rem;
+    color: $textCommonGray;
+}
+
+.ekasBlockToCallWrapperTdLong {
+    display: inline-block;
+    width: 22rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    margin-left: 1rem;
+    color: $textCommonGray;
+}
+
+.ekasBlockToCallWrapper tbody select {
+    display: inline-block;
+    width: 18rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    color: $textCommonGray;
+    cursor: pointer;
+    text-indent: 0.5rem;
+}
+
+.ekasBlockToCallWrapperTdLong input {
+    display: inline-block;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+    text-indent: 0.5rem;
+}

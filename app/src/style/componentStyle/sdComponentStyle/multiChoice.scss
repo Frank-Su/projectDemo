@@ -1,0 +1,67 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasMultichoiceEditPart1 {
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    border-bottom: 0.1rem solid $deepGray;
+}
+
+.ekasMultichoiceCheckbox {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+
+.ekasMultichoiceCheckbox1 {
+    margin-bottom: 1rem;
+}
+
+.ekasMultichoiceCheckbox1 label {
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.ekasMultichoiceTable {
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.ekasMultichoiceTableTitle {
+    width: 15rem;
+    padding-bottom: 1rem;
+}
+
+.ekasMultichoiceTableTitle2 {
+    width: 4rem;
+    padding-bottom: 1rem;
+}
+
+.ekasMultichoiceTablePart2Icon {
+    display: inline-block;
+    color: $deepGray;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.ekasMultichoiceTableSelect1 {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+    text-indent: 0.5rem;
+}
+
+.ekasMultichoiceTableSelectWrapper {
+    padding-right: 1rem;
+}
+
+.ekasMultichoiceTableInput {
+    height: 3rem;
+    line-height: 3rem;
+    box-sizing: border-box;
+    text-indent: 0.5rem;
+    width: 100%;
+}

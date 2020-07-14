@@ -1,0 +1,112 @@
+@import '../../constant/font.scss';
+@import '../../constant/color.scss';
+.ekasSettingscardContainer {
+    display: flex;
+    background: $white;
+    font-family: $commontTextFamily;
+}
+
+.ekasSettingscardLeft {
+    flex: 1;
+    margin-left: 2rem;
+}
+
+.ekasSettingscardTitle {
+    font-size: $fs_1__2;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ekasSettingscardRight {
+    flex: 2;
+    display: flex;
+}
+
+@mixin ekasSettingscardLeftImgButton {
+    display: inline-block;
+    width: 8rem;
+    height: 7rem;
+    text-align: center;
+    cursor: pointer;
+    border: 0.1rem solid $deepGray;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    margin-right: 1.5rem;
+}
+
+@mixin ekasSettingscardLeftImgButtonIcon {
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+
+@mixin ekasSettingscardLeftImgButtonName {
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.25rem;
+}
+
+.ekasSettingscardLeftImgButtonSelected {
+    @include ekasSettingscardLeftImgButton();
+    background: $lightGray;
+}
+
+.ekasSettingscardLeftImgButtonNormal {
+    @include ekasSettingscardLeftImgButton();
+    background: $white;
+}
+
+.ekasSettingscardLeftImgButtonIconSelected {
+    @include ekasSettingscardLeftImgButtonIcon();
+    color: $primaryColor;
+}
+
+.ekasSettingscardLeftImgButtonIconNormal {
+    @include ekasSettingscardLeftImgButtonIcon();
+    color: $deepGray;
+}
+
+.ekasSettingscardLeftImgButtonNameSelected {
+    @include ekasSettingscardLeftImgButtonName();
+}
+
+.ekasSettingscardLeftImgButtonNameNormal {
+    @include ekasSettingscardLeftImgButtonName();
+    color: $deepGray;
+}
+
+.ekasSettingscardRightRight {
+    flex: 1;
+}
+
+.ekasSettingscardRightLeft {
+    flex: 2;
+    margin-top: 4rem;
+}
+
+.ekasSettingscardRightOptions {
+    margin-bottom: 0.5rem;
+}
+
+.ekasSettingscardRightOptions label {
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.ekasSettingscardRightOptions input {
+    cursor: pointer;
+}
+
+.ekasSettingscardRightOptionsIcon {
+    margin-left: 0.5rem;
+    color: $deepGray;
+}
+
+.ekasSettingscardRightOptionsL3 {
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}

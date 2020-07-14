@@ -1,0 +1,94 @@
+@import '../../../constant/color.scss';
+@import '../../../constant/font.scss';
+@mixin ekasQTitleIcon {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: $fs_2;
+    cursor: pointer;
+}
+
+.ekasQTitleWrapper {
+    border-bottom: 0.1rem solid $deepGray;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ekasQTitleLeftPart {
+    display: inline-block;
+}
+
+.ekasQTitleLeftPartDisplayIcon {
+    @include ekasQTitleIcon();
+    color: $primaryColor;
+}
+
+.ekasQTitleLeftPartInput {
+    display: inline-block;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: $fs_1__4;
+    font-family: $titleFamily;
+    vertical-align: top;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ekasQTitleLeftPartInput span {
+    display: inline-block;
+    border: none;
+    padding-left: 1rem;
+    border: 0.1rem solid $white;
+    transition: 0.4s ease;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    border: 0.1rem solid $white;
+}
+
+.ekasQTitleLeftPartInput span:hover {
+    border: 0.1rem solid $deepGray;
+    display: inline-block;
+    border-radius: 0.5rem;
+    transition: 0.4s ease;
+}
+
+.ekasQTitleLeftPartInput input {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 4rem;
+    text-indent: 1rem;
+    line-height: 4rem;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.4s ease;
+    font-family: $commontTextFamily;
+    border-bottom: 0.2rem solid $white;
+}
+
+.ekasQTitleLeftPartInput input:focus {
+    border-bottom: 0.2rem solid $primaryColor;
+    transition: 0.4s ease;
+}
+
+.ekasQTitleLeftPartEditicon {
+    @include ekasQTitleIcon();
+    color: $textCommonGray;
+    transition: 0.4s ease;
+}
+
+.ekasQTitleLeftPartEditicon:hover {
+    background: $lightGray;
+    border-radius: 4rem;
+    transition: 0.4s ease;
+}
+
+.ekasQTitleRightPart {
+    display: inline-block;
+}

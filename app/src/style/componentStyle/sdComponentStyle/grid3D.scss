@@ -1,0 +1,72 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasGrid3DWrapper {
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    border-bottom: 0.1rem solid $deepGray;
+    padding-left: 1rem;
+}
+
+.ekasGrid3DCheckbox {
+    margin-bottom: 1rem;
+}
+
+.ekasGrid3DCheckboxWrapper {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+
+.ekasGrid3DCheckbox label {
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.ekasGrid3DCheckbox input {
+    cursor: pointer;
+}
+
+.ekasGrid3DTable {
+    display: inline-block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.ekasGrid3DTableTitle {
+    width: 15rem;
+    padding-bottom: 1rem;
+}
+
+.ekasGrid3DTableTitleLong {
+    width: 20rem;
+    padding-bottom: 1rem;
+}
+
+.ekasGrid3DTableIcon {
+    display: inline-block;
+    color: $deepGray;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.ekasGrid3DTableItemWrapper {
+    padding-right: 1rem;
+}
+
+.ekasGrid3DTableSelect {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+    text-indent: 0.5rem;
+}
+
+.ekasGrid3DInput {
+    height: 3rem;
+    line-height: 3rem;
+    box-sizing: border-box;
+    margin-left: 1rem;
+    width: 5rem;
+}

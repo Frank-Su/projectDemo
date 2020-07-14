@@ -1,0 +1,72 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasGeolocationWrapper {
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    border-bottom: 0.1rem solid $deepGray;
+    padding-left: 1rem;
+}
+
+.ekasGeolocationCheckbox {
+    margin-bottom: 1rem;
+}
+
+.ekasGeolocationCheckboxWrapper {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+
+.ekasGeolocationCheckbox label {
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.ekasGeolocationCheckbox input {
+    cursor: pointer;
+}
+
+.ekasGeolocationTable {
+    display: inline-block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.ekasGeolocationTableTitle {
+    width: 15rem;
+    padding-bottom: 1rem;
+}
+
+.ekasGeolocationTableTitleLong {
+    width: 20rem;
+    padding-bottom: 1rem;
+}
+
+.ekasGeolocationTableIcon {
+    display: inline-block;
+    color: $deepGray;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.ekasGeolocationTableItemWrapper {
+    padding-right: 1rem;
+}
+
+.ekasGeolocationTableSelect {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+    text-indent: 0.5rem;
+}
+
+.ekasGeolocationInput {
+    height: 3rem;
+    line-height: 3rem;
+    box-sizing: border-box;
+    margin-left: 1rem;
+    width: 5rem;
+}

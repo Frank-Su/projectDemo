@@ -1,0 +1,95 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasDirectiveIcon {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: $fs_2;
+    cursor: pointer;
+    color: $directive;
+}
+
+.ekasDirectiveWrapper {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+}
+
+.ekasDirectiveTitleIcon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: $fs_1__2;
+    cursor: pointer;
+    padding-left: 0.5rem;
+    color: $deepGray;
+}
+
+.ekasDirectiveWrapperTdNormal {
+    display: inline-block;
+    width: 18rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    margin-left: 2rem;
+    color: $textCommonGray;
+}
+
+.ekasDirectiveWrapperTdLong {
+    display: inline-block;
+    width: 22rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    margin-left: 1rem;
+    color: $textCommonGray;
+}
+
+.ekasDirectiveWrapper tbody select {
+    display: inline-block;
+    width: 18rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    color: $textCommonGray;
+    cursor: pointer;
+    text-indent: 0.5rem;
+}
+
+.ekasDirectiveWrapperTdLong input {
+    display: inline-block;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+    text-indent: 0.5rem;
+}
+
+.ekasDirectiveItem {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: $titleFamily;
+    display: inline-block;
+    font-size: $fs_1__2;
+    width: 100%;
+    border-bottom: 0.1rem solid $deepGray;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+}
+
+.ekasDirectiveItem span {
+    margin-right: 1rem;
+}
+
+.ekasDirectiveItemSelect {
+    border: none;
+}

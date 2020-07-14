@@ -1,0 +1,72 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasGridWrapper {
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    border-bottom: 0.1rem solid $deepGray;
+    padding-left: 1rem;
+}
+
+.ekasGridCheckbox {
+    margin-bottom: 1rem;
+}
+
+.ekasGridCheckboxWrapper {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+
+.ekasGridCheckbox label {
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.ekasGridCheckbox input {
+    cursor: pointer;
+}
+
+.ekasGridTable {
+    display: inline-block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.ekasGridTableTitle {
+    width: 15rem;
+    padding-bottom: 1rem;
+}
+
+.ekasGridTableTitleLong {
+    width: 20rem;
+    padding-bottom: 1rem;
+}
+
+.ekasGridTableIcon {
+    display: inline-block;
+    color: $deepGray;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.ekasGridTableItemWrapper {
+    padding-right: 1rem;
+}
+
+.ekasGridTableSelect {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+    text-indent: 0.5rem;
+}
+
+.ekasGridInput {
+    height: 3rem;
+    line-height: 3rem;
+    box-sizing: border-box;
+    margin-left: 1rem;
+    width: 5rem;
+}

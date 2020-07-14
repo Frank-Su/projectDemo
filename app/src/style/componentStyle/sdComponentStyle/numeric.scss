@@ -1,0 +1,112 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasNumericWrapper {
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    border-bottom: 0.1rem solid $deepGray;
+}
+
+.ekasNumericCheckbox {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+
+.ekasNumericCheckbox1 {
+    margin-bottom: 1rem;
+}
+
+.ekasNumericCheckbox1 label {
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.ekasNumericTable {
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.ekasNumericTableTitle {
+    width: 15rem;
+    padding-bottom: 1rem;
+}
+
+.ekasNumericTableTitle2 {
+    width: 10rem;
+    padding-bottom: 1rem;
+}
+
+.ekasNumericTablePart2Icon {
+    display: inline-block;
+    color: $deepGray;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.ekasNumericTableSelect1 {
+    display: inline-block;
+    width: 15rem;
+    height: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+    text-indent: 0.5rem;
+}
+
+.ekasNumericTableSelectWrapper {
+    padding-right: 1rem;
+}
+
+.ekasNumericTableSpan {
+    height: 3rem;
+    line-height: 3rem;
+    display: inline-block;
+    width: 4rem;
+}
+
+.ekasNumericTableInput {
+    display: inline-block;
+    height: 3rem;
+    line-height: 3rem;
+    box-sizing: border-box;
+    width: 5rem;
+    text-indent: 0.5rem;
+}
+
+.ekasNumericTableInput2 {
+    display: inline-block;
+    height: 3rem;
+    line-height: 3rem;
+    box-sizing: border-box;
+    width: 5rem;
+    margin-right: 2rem;
+    vertical-align: top;
+    text-indent: 0.5rem;
+}
+
+.ekasNumericTableSpan2 {
+    height: 3rem;
+    line-height: 3rem;
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.ekasNumericTableSelect {
+    height: 3rem;
+    line-height: 3rem;
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.ekasNumericTableTitleWrapper {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.ekasNumericTableTitleMid {
+    height: 3rem;
+    line-height: 3rem;
+}

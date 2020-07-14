@@ -1,0 +1,72 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasImageWrapper {
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    border-bottom: 0.1rem solid $deepGray;
+    padding-left: 1rem;
+}
+
+.ekasImageCheckbox {
+    margin-bottom: 1rem;
+}
+
+.ekasImageCheckboxWrapper {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+
+.ekasImageCheckbox label {
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.ekasImageCheckbox input {
+    cursor: pointer;
+}
+
+.ekasImageTable {
+    display: inline-block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.ekasImageTableTitle {
+    width: 15rem;
+    padding-bottom: 1rem;
+}
+
+.ekasImageTableTitleLong {
+    width: 20rem;
+    padding-bottom: 1rem;
+}
+
+.ekasImageTableIcon {
+    display: inline-block;
+    color: $deepGray;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.ekasImageTableItemWrapper {
+    padding-right: 1rem;
+}
+
+.ekasImageTableSelect {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+    text-indent: 0.5rem;
+}
+
+.ekasImageInput {
+    height: 3rem;
+    line-height: 3rem;
+    box-sizing: border-box;
+    margin-left: 1rem;
+    width: 5rem;
+}

@@ -1,0 +1,165 @@
+@import '../../../constant/color.scss';
+@import '../../../constant/font.scss';
+.ekasQListAnswers {
+    background: $lightGray;
+    width: 95%;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ekasQListAnswers span {
+    height: 3rem;
+    font-size: $fs_1__2;
+    font-family: $commontTextFamily;
+    line-height: 3rem;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    vertical-align: top;
+}
+
+.ekasQListAnswers select {
+    border: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    background: $lightGray;
+    cursor: pointer;
+}
+
+@mixin ekasQListIcon {
+    height: 3rem;
+    font-size: $fs_1__2;
+    font-family: $commontTextFamily;
+    line-height: 3rem;
+    display: inline-block;
+    padding-right: 0.5rem;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.ekasQListAnswersIcon {
+    @include ekasQListIcon();
+    color: $deepGray;
+}
+
+.ekasQListAnswersSwitchOn {
+    @include ekasQListIcon();
+    color: $primaryColor;
+    font-size: $fs_2;
+}
+
+.ekasQListAnswersSwitchOff {
+    @include ekasQListIcon();
+    color: $textCommonGray;
+    font-size: $fs_2;
+}
+
+.ekasQListButtonWrapper {
+    margin-left: 4rem;
+}
+
+@mixin ekasQListButton {
+    display: inline-block;
+    height: 3rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background: $primaryColor;
+    cursor: pointer;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    color: $white;
+    //border-radius: 0.5rem;
+}
+
+.ekasQListButtonLong {
+    @include ekasQListButton();
+    width: 12rem;
+    position: relative;
+}
+
+.ekasQListButtonSmall {
+    @include ekasQListButton();
+    width: 8rem;
+}
+
+.ekasQListButtonText {
+    display: inline-block;
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.ekasQListButtonIcon {
+    display: inline-block;
+    width: 4rem;
+    height: 3rem;
+    border-left: 0.1rem solid $white;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 3rem;
+    background: $primaryColor;
+    transition: 0.4s linear;
+}
+
+.ekasQListButtonIcon:hover {
+    background: $primaryHoverColor;
+    transition: 0.4s linear;
+}
+
+.ekasQListListWrapper {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+}
+
+.ekasQListListCheckbox {
+    text-align: center;
+}
+
+.ekasQListListIcon {
+    display: inline-block;
+    width: 4rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+    color: $deepGray;
+    cursor: pointer;
+}
+
+.ekasQListButtonReusablelist {
+    position: absolute;
+    background: $white;
+    color: $textCommonGray;
+    height: 3rem;
+    width: 14rem;
+    border-radius: 0.5rem;
+    transition: 0.2s linear;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 3rem;
+    box-shadow: 0 0 0.5rem $deepGray;
+}
+
+.ekasQListButtonReusablelist:hover {
+    background: $lightGray;
+    transition: 0.2s linear;
+}
+
+.ekasQListListItem {
+    height: 3rem;
+}
+
+.ekasQListListSelect {
+    display: inline-block;
+    width: 100%;
+}

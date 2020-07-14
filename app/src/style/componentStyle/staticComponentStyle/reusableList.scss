@@ -1,0 +1,33 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasRLIcon {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: $fs_2;
+    cursor: pointer;
+    color: $loop;
+}
+
+.ekasRULTagsWrapper {
+    border-bottom: 0.1rem solid $deepGray;
+    box-sizing: border-box;
+}
+
+.ekasRULTagsSpanSelected {
+    height: 5rem;
+    display: inline-block;
+    line-height: 5rem;
+    font-size: $fs_1__4;
+    margin-left: 2rem;
+    font-family: $titleFamily;
+    cursor: pointer;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    border-bottom: 0.3rem solid $primaryColor
+}

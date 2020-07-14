@@ -1,0 +1,44 @@
+@import '../../../constant/color.scss';
+@import '../../../constant/font.scss';
+@mixin ekasQCategorySelectLabel {
+    margin-left: 2rem;
+    height: 4rem;
+    line-height: 4rem;
+    font-family: $titleFamily;
+    display: inline-block;
+    font-size: $fs_1__2;
+}
+
+@mixin ekasQCategorySelect {
+    border: none;
+    margin-left: 0.5rem;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    cursor: pointer;
+}
+
+@mixin ekasQCategoryBorderBottom {
+    border-bottom: 0.1rem solid $deepGray;
+    box-sizing: border-box;
+}
+
+.ekasQCategoryWrapper {
+    @include ekasQCategoryBorderBottom();
+}
+
+.ekasQCategoryItem {
+    @include ekasQCategorySelectLabel();
+}
+
+.ekasQCategoryItem select {
+    @include ekasQCategorySelect();
+}
+
+.ekasQCategoryAppearance select {
+    @include ekasQCategorySelect();
+}
+
+.ekasQCategoryAppearance {
+    @include ekasQCategorySelectLabel();
+    margin-left: 4rem;
+}

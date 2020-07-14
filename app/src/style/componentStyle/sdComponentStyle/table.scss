@@ -1,0 +1,148 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasTableWrapper {
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    border-bottom: 0.1rem solid $deepGray;
+    padding-left: 1rem;
+}
+
+.ekasTableCheckboxWrapper {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+
+.ekasTableCheckbox {
+    margin-bottom: 1rem;
+}
+
+.ekasTableCheckbox label {
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.ekasTableCheckbox input {
+    cursor: pointer;
+}
+
+.ekasTableTable {
+    display: inline-block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.ekasTableTableTitle {
+    width: 15rem;
+    padding-bottom: 1rem;
+}
+
+.ekasTableTableTitleShort {
+    width: 10rem;
+    padding-bottom: 1rem;
+}
+
+.ekasTableTableTitleLong {
+    width: 20rem;
+    padding-bottom: 1rem;
+}
+
+.ekasTableTableIcon {
+    display: inline-block;
+    color: $deepGray;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.ekasTableTableItemWrapper {
+    padding-right: 1rem;
+}
+
+.ekasTableTableSelect {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+    text-indent: 0.5rem;
+}
+
+.ekasTableInput {
+    height: 3rem;
+    line-height: 3rem;
+    box-sizing: border-box;
+    width: 10rem;
+}
+
+.ekasTableAnswerTitle {
+    width: 98%;
+    background: $seaBlue;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 0 auto;
+    text-indent: 2rem;
+    margin-top: 2rem;
+}
+
+.ekasTableAnswerWrapper {
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+.ekasTableAnswerText {
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.ekasTableAnswerSelectWrapper {
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.ekasTableAnswerIcon {
+    display: inline-block;
+    height: 3rem;
+    width: 4rem;
+    margin-left: -4rem;
+    text-align: center;
+    z-index: 2;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: $deepGray;
+    transition: 0.4s linear;
+}
+
+.ekasTableAnswerIcon::before {
+    content: '';
+    border-left: 0.1rem solid $deepGray;
+    padding-left: 2rem;
+    margin-left: -3rem;
+}
+
+.ekasTableAnswerIcon:hover {
+    color: $primaryColor;
+    transition: 0.4s linear;
+}
+
+.ekasTableAnswerInput {
+    height: 3rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    z-index: 1;
+    width: 100%;
+    border: 0.1rem solid $deepGray;
+    color: $textCommonGray;
+    text-indent: 1rem;
+}
+
+.ekasTableAnswerList {
+    position: absolute;
+    height: 5rem;
+    width: 70%;
+    background: $lightGray;
+    margin-top: -8rem;
+}

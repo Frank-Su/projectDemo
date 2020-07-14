@@ -1,0 +1,108 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasNumericlistEditPart1 {
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    border-bottom: 0.1rem solid $deepGray;
+}
+
+.ekasNumericlistCheckbox {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+
+.ekasNumericlistCheckbox1 {
+    margin-bottom: 1rem;
+}
+
+.ekasNumericlistCheckbox1 label {
+    padding-left: 0.5rem;
+}
+
+.ekasNumericlistTable {
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.ekasNumericlistTableTitle {
+    width: 15rem;
+    padding-bottom: 1rem;
+}
+
+.ekasNumericlistTableTitle2 {
+    width: 10rem;
+    padding-bottom: 1rem;
+}
+
+.ekasNumericlistTablePart2Icon {
+    display: inline-block;
+    color: $deepGray;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.ekasNumericlistTableSelect1 {
+    display: inline-block;
+    width: 15rem;
+    height: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+}
+
+.ekasNumericlistTableSelectWrapper {
+    padding-right: 1rem;
+}
+
+.ekasNumericlistTableSpan {
+    height: 3rem;
+    line-height: 3rem;
+    display: inline-block;
+    width: 4rem;
+}
+
+.ekasNumericlistTableInput {
+    display: inline-block;
+    height: 3rem;
+    line-height: 3rem;
+    box-sizing: border-box;
+    width: 5rem;
+}
+
+.ekasNumericlistTableInput2 {
+    display: inline-block;
+    height: 3rem;
+    line-height: 3rem;
+    box-sizing: border-box;
+    width: 5rem;
+    margin-right: 2rem;
+    vertical-align: top;
+}
+
+.ekasNumericlistTableSpan2 {
+    height: 3rem;
+    line-height: 3rem;
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.ekasNumericlistTableSelect {
+    height: 3rem;
+    line-height: 3rem;
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.ekasNumericlistTableTitleWrapper {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.ekasNumericlistTableTitle3 {
+    width: 24rem;
+    padding-bottom: 1rem;
+}

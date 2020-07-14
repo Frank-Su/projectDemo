@@ -1,0 +1,70 @@
+@import '../../constant/font.scss';
+@import '../../constant/color.scss';
+
+@mixin commonHeaderStyle {
+  height: 5.5rem;
+  line-height: 5.5rem;
+  display: inline-block;
+  background-color: $white;
+  font-size: $fs_1__5;
+  font-family: $commontTextFamily;
+  padding: 0 1rem 0 1rem;
+  box-sizing: border-box;
+  margin-right: 1rem;
+  transition: 0.2s linear;
+  cursor: pointer;
+  color: $textCommonGray;
+}
+.ekasSurveyHeaderWrapper {
+  width: 100%;
+  padding-left: 2rem;
+  overflow: hidden;
+  border: 1px solid $lightGray;
+  @media screen and (max-width: 992px) {
+    text-align: center;
+  }
+  @media screen and (max-width: 450px) {
+    display: none;
+  }
+}
+.ekasSurveyHeaderItem {
+  @include commonHeaderStyle;
+}
+.ekasSurveyHeaderItem:hover {
+  background-color: $lightBlue;
+  border-bottom: 0.4rem solid $primaryColor;
+}
+.ekasSurveyHeaderSetting {
+  text-align: right;
+  padding-right: 5rem;
+  @media screen and (max-width: 1450px) {
+    padding-right: 0;
+  }
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
+}
+.ekasSurveyHeaderSettingItem {
+  @include commonHeaderStyle;
+  color: $successColor;
+}
+.ekasSurveyHeaderSettingItem:hover {
+  background-color: $lightBlue;
+}
+
+.ekasSurveyHeaderSettingItemDelete {
+  @include commonHeaderStyle;
+  color: $dangerColor;
+}
+.ekasSurveyHeaderSettingItemDelete:hover {
+  background-color: $dangerColor;
+  color: $white;
+}
+.ekasSurveyHeaderSettingItemDesign {
+  @include commonHeaderStyle;
+  color: $white;
+  background-color: $successColor;
+}
+.ekasSurveyHeaderSettingItemDesign:hover {
+  background-color: $successSecondaryColor;
+}

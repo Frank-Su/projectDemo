@@ -1,0 +1,32 @@
+@import '../../../constant/color.scss';
+@import '../../../constant/font.scss';
+.ekasQTextWrapper {
+    margin-top: 3rem;
+}
+
+.ekasQTextWrapper div {
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.ekasQTextWrapper span {
+    display: inline-block;
+    width: 8rem;
+    font-size: $fs_1__2;
+    font-family: $commontTextFamily;
+    vertical-align: top;
+    padding-top: 0.5rem;
+}
+
+.ekasQTextTextInputSmall {
+    width: 60rem;
+    height: 3rem;
+    text-indent: 1rem;
+}
+
+.ekasQTextTextInputLarge {
+    height: 15rem;
+    width: 60rem;
+    text-indent: 1rem;
+    padding-top: 1rem;
+}

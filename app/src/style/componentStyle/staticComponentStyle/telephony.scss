@@ -1,0 +1,143 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasTelephonyIcon {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: $fs_2;
+    cursor: pointer;
+    color: $telephony;
+}
+
+.ekasTelephonyWrapper {
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    border-bottom: 0.1rem solid $deepGray;
+}
+
+.ekasTelephonySection1 {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid $deepGray;
+}
+
+.ekasTelephonySection2 {
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
+
+.ekasTelephonySection2 span {
+    vertical-align: top;
+    flex: 1;
+}
+
+.ekasTelephonySection2 textarea {
+    margin-left: 1rem;
+    width: 100%;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+    height: 5rem;
+    resize: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.ekasTelephonyTitleIcon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: $fs_1__2;
+    cursor: pointer;
+    padding-left: 0.5rem;
+    color: $deepGray;
+}
+
+.ekasTelephonyWrapperTdNormal {
+    display: inline-block;
+    width: 15rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    margin-left: 1rem;
+    color: $textCommonGray;
+}
+
+.ekasTelephonyWrapperTdLong {
+    display: inline-block;
+    width: 15rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    color: $textCommonGray;
+}
+
+.ekasTelephonyWrapper tbody select {
+    display: inline-block;
+    width: 15rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: $fs_1__2;
+    color: $textCommonGray;
+    cursor: pointer;
+    text-indent: 0.5rem;
+}
+
+.ekasTelephonyWrapperTdLong input {
+    display: inline-block;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+    text-indent: 0.5rem;
+}
+
+.ekasTelephonyItem {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: $titleFamily;
+    display: inline-block;
+    font-size: $fs_1__2;
+    width: 100%;
+    border-bottom: 0.1rem solid $deepGray;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+}
+
+.ekasTelephonyItem span {
+    margin-right: 1rem;
+}
+
+.ekasTelephonyCheckbox {
+    display: inline-block;
+    margin-left: 2rem;
+    vertical-align: top;
+    margin-top: 4rem;
+}
+
+.ekasTelephonyCheckbox label {
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.ekasTelephonyItemSpan {
+    margin-left: 2rem;
+    display: inline-block;
+}
+
+.ekasTelephonyItemSelect {
+    border: none;
+}

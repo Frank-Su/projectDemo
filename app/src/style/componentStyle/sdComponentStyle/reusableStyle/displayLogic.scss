@@ -1,0 +1,39 @@
+@import '../../../constant/color.scss';
+@import '../../../constant/font.scss';
+.ekasDisplayNotification {
+    width: 95%;
+    height: 5rem;
+    line-height: 5rem;
+    background: $primaryColor;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-left: 0.2rem solid $primaryHoverColor;
+}
+
+.ekasDisplayNotificationIcon {
+    display: inline-block;
+    font-size: $fs_1__2;
+    margin-left: 2rem;
+    color: $primaryHoverColor;
+}
+
+.ekasDisplayNotification span {
+    padding-left: 1rem;
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+}
+
+.ekasDisplayAdd {
+    width: 12rem;
+    background: $textCommonGray;
+    font-size: $fs_1__2;
+    font-family: $commontTextFamily;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    color: $white;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

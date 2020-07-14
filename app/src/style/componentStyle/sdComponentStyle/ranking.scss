@@ -1,0 +1,60 @@
+@import '../../constant/color.scss';
+@import '../../constant/font.scss';
+.ekasRankingEditPart1 {
+    font-family: $commontTextFamily;
+    font-size: $fs_1__2;
+    border-bottom: 0.1rem solid $deepGray;
+}
+
+.ekasRankingCheckbox {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+
+.ekasRankingCheckbox label {
+    padding-left: 0.5rem;
+}
+
+.ekasRankingTable {
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.ekasRankingTableTitle {
+    width: 15rem;
+    padding-bottom: 1rem;
+}
+
+.ekasRankingTableTitle2 {
+    width: 4rem;
+    padding-bottom: 1rem;
+}
+
+.ekasRankingTablePart2Icon {
+    display: inline-block;
+    color: $deepGray;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.ekasRankingTableSelect1 {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+}
+
+.ekasRankingTableSelectWrapper {
+    padding-right: 1rem;
+}
+
+.ekasRankingTableInput {
+    height: 3rem;
+    line-height: 3rem;
+    box-sizing: border-box;
+    width: 100%;
+}

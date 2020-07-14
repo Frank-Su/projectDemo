@@ -1,0 +1,99 @@
+@import '../../constant/font.scss';
+@import '../../constant/color.scss';
+.ekasLanguagecardTitleTextAddition {
+  color: $deepGray;
+}
+
+.ekasLanguagecardTitleButtonAddition {
+  margin-right: 1rem;
+  color: $primaryColor;
+  font-size: $fs_1__2;
+  height: 2rem;
+  line-height: 2rem;
+  font-family: $commontTextFamily;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.ekasLanguagecardTitleButtonAddition:hover {
+  color: $primaryHoverColor;
+  transition: 0.2s linear;
+}
+
+.ekasLanguagecardListTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: $commontTextFamily;
+  font-size: $fs_1__2;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.ekasLanguagecardListLanguage {
+  text-indent: 0.5rem;
+  flex: 1;
+}
+
+.ekasLanguagecardListTitle {
+  flex: 3;
+  text-indent: 0.5rem;
+}
+
+.ekasLanguagecardListEndlink {
+  flex: 3;
+  text-indent: 0.5rem;
+}
+
+.ekasLanguagecardListHelplink {
+  flex: 3;
+  text-indent: 0.5rem;
+}
+
+.ekasLanguagecardListHelptext {
+  flex: 5;
+  text-indent: 0.5rem;
+}
+
+@mixin ekasLanguagecardListInput {
+  text-indent: 0.5rem;
+  border: none;
+  padding: 0;
+  width: 100%;
+  transition: 0.4 linear;
+}
+
+.ekasLanguagecardListLanguageInput {
+  @include ekasLanguagecardListInput();
+  flex: 1;
+}
+
+.ekasLanguagecardListTitleInput {
+  @include ekasLanguagecardListInput();
+  flex: 1;
+}
+
+.ekasLanguagecardListEndlinkInput {
+  @include ekasLanguagecardListInput();
+  flex: 3;
+}
+
+.ekasLanguagecardListHelplinkInput {
+  @include ekasLanguagecardListInput();
+  flex: 3;
+}
+
+.ekasLanguagecardListHelptextInput {
+  @include ekasLanguagecardListInput();
+  flex: 5;
+}
+
+.ekasLanguagecardListLanguageInput:hover {
+  text-indent: 0.5rem;
+  flex: 1;
+  border: 0.1rem solid $deepGray;
+  border-radius: 0.5rem;
+  transition: 0.4 linear;
+  box-sizing: border-box;
+}
